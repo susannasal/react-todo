@@ -7,7 +7,7 @@ import Todo from './Todo';
 export default class List extends Component {
     constructor(props) {
         super(props);
-        this.state={todos: new Array(new Todo('Test 1', 'Test description'))}
+        this.state={todos: new Array(new Todo('', ''))}
     }
 
 

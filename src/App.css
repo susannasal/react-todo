@@ -1,0 +1,19 @@
+div {
+    padding: 10px;
+    display: inline-block;
+    width: 300px;
+}
+
+th, td {
+    padding-right: 30px;
+    padding-left: 20px;
+}
+
+th {
+    border-bottom: 1px dashed black;
+}
+
+button {
+    margin-left: 10px;
+}
+

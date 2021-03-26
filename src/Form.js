@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class Form extends Component {
     constructor(props) {
         super(props);
@@ -26,14 +27,14 @@ export default class Form extends Component {
         return (
             <form onSubmit={this.handleSubmit}>
                 <div>
-                    <label>Title</label>
-                    <input name="title" value={this.state.title} onChange={this.handleChange} />
+                    <label className="col-form-label">Title</label>
+                    <input className="form-control" name="title" value={this.state.title} onChange={this.handleChange} />
                 </div>
                 <div>
-                    <label>Description</label>
-                    <textarea name="description" value={this.state.description} onChange={this.handleChange}></textarea>
+                    <label className="col-form-label">Description</label>
+                    <textarea className="form-control" name="description" value={this.state.description} onChange={this.handleChange}></textarea>
                 </div>
-                <button>Add</button>
+                <button className="btn btn-primary mt-3 mb-3" >Add</button>
             </form>
         )
     }
